@@ -1,0 +1,13 @@
+#!name=nhatminh2501 Video 60s
+#!desc=Shadowrocket Module
+#!author=nhatminh2501
+
+[General]
+bypass-system = true
+
+[Rule]
+DOMAIN-SUFFIX,locketcamera.com,DIRECT
+DOMAIN-SUFFIX,cloudfunctions.net,DIRECT
+
+[MITM]
+hostname = %APPEND% api.locketcamera.com, gateway.locketcamera.com, us-central1-locket-4252a.cloudfunctions.net
